@@ -7,6 +7,7 @@ import Courses from './pages/Courses';
 import Disertadores from './pages/Disertadores';
 import Certificados from './pages/Certificados';
 import StudentCourses from './pages/SearchStudent';
+import CertificateForm from './pages/CertificateForm';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <Route path="/buscar" element={<StudentCourses />} />
         <Route path="/disertadores" element={<Disertadores />} />
         <Route path="/certificados" element={<Certificados />} />
+        <Route path="/CertificateForm" element={<CertificateForm />} />
         <Route path="/" element={<Navigate to="/buscar" />} /> {/* Redirige a login */}
       </Routes>
     </Router>
