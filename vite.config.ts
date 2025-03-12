@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0', // Escuchar en todas las interfaces
-    port: 5173, // Puerto (puedes cambiarlo si es necesario)
+    port: 5183, // Puerto (puedes cambiarlo si es necesario)
     watch: {
       usePolling: true, // Necesario para que funcione correctamente en algunos entornos Docker
     },
