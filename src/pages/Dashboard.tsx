@@ -23,7 +23,7 @@ const Dashboard: React.FC = () => {
         <button onClick={() => navigate('/certificados')} style={buttonStyle}>
           Certificados
         </button>
-        <button onClick={() => navigate('/certificados')} style={buttonStyle}>
+        <button onClick={() => navigate('/CertificateForm')} style={buttonStyle}>
           Generar Certificados
         </button>
       </div>
